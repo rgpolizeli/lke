@@ -1,0 +1,53 @@
+<div class="container mt-3">
+  <div class="row d-flex">
+    <div class="col">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Emuladores</th>
+            <th class="d-flex flex-row align-items-center">
+              Plataformas
+              <select class="form-select w-25 ms-2" [(ngModel)]="filterDevice">
+                <option value="" [selected]="!filterDevice">Filtrar</option>
+                <ng-container *ngFor="let device of devices">
+                  <option value="{{ device }}">{{ device }}</option>
+                </ng-container>
+              </select>
+            </th>
+            <th scope="col">Links</th>
+          </tr>
+        </thead>
+        <tbody>
+          <ng-container *ngFor="let emulador of emuladores">
+            <tr *ngIf="showEmulador(emulador)">
+              <td>{{ emulador.name }}</td>
+              <td>
+                <p class="mb-1" *ngFor="let device of emulador.devices">
+                  {{ device }}
+                </p>
+              </td>
+              <td>
+                <div>
+                  <a
+                    [href]="emulador.download"
+                    role="button"
+                    tabindex="-1"
+                    class="btn btn-outline-primary btn-sm"
+                    >Download</a
+                  >
+                  <a
+                    [href]="emulador.tutorial"
+                    role="button"
+                    tabindex="-1"
+                    class="btn btn-outline-secondary btn-sm ms-2"
+                    >Tutorial</a
+                  >
+                </div>
+              </td>
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

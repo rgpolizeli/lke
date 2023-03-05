@@ -10,6 +10,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { TutoriaisComponent } from './components/tutoriais/tutoriais.component';
 import { TutoriaisListaItemComponent } from './components/tutoriais/components/tutoriais-lista-item/tutoriais-lista-item.component';
 import { TutoriaisItemComponent } from './components/tutoriais/components/tutoriais-item/tutoriais-item.component';
+import { TutorialItemResolver } from './components/tutoriais/resolvers/tutorial-item.resolver';
+import { RomsComponent } from './components/roms/roms.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { TutoriaisItemComponent } from './components/tutoriais/components/tutori
     EmuladoresComponent,
     TutoriaisComponent,
     TutoriaisListaItemComponent,
-    TutoriaisItemComponent
+    TutoriaisItemComponent,
+    RomsComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,7 @@ import { TutoriaisItemComponent } from './components/tutoriais/components/tutori
     NgbModule,
     FormsModule
   ],
-  providers: [],
+  providers: [TutorialItemResolver],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,18 +1,34 @@
 <div class="container mt-3">
-  <div class="row">
-    <div class="col d-flex">
-      <ng-container *ngFor="let i of items">
-        <lke-tutoriais-lista-item> </lke-tutoriais-lista-item>
-      </ng-container>
-    </div>
-  </div>
-  <div class="row mt-3">
+  <div class="row mb-5 mt-5" >
     <div class="col d-flex justify-content-center">
-      <ngb-pagination
-        [(page)]="currentPage"
-        [pageSize]="pageSize"
-        [collectionSize]="items.length"
-      ></ngb-pagination>
+      <div class="input-group w-25" >
+        <div class="input-group-prepend">
+          <span class="input-group-text"><i class="bi bi-funnel"></i></span>
+        </div>
+        <input type="text" class="form-control" [(ngModel)]="tutorialFilter">
+      </div>
     </div>
   </div>
+  <ng-container *ngIf="tutoriais$ | async as tutoriais">
+    <div class="row">
+      <div class="col d-flex flex-wrap gap-3">
+        <ng-container 
+          *ngFor="let tutorial of tutoriais.slice((currentPage - 1)*pageSize, (currentPage - 1)*pageSize + pageSize - 1)">
+          <lke-tutoriais-lista-item
+            [tutorial]="tutorial"
+          ></lke-tutoriais-lista-item>
+        </ng-container>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col d-flex justify-content-center">
+        <ngb-pagination
+          [(page)]="currentPage"
+          [pageSize]="pageSize"
+          [collectionSize]="tutoriais.length"
+        ></ngb-pagination>
+      </div>
+    </div>
+  </ng-container>
+  
 </div>

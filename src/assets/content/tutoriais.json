@@ -1,9 +1,116 @@
 [  
   {  
+    "id": 265794,  
+    "title": "Tutorial Kega Fusion",  
+    "description": "Aprenda a configurar o emulador Kega Fusion",
+    "htmlContent": [
+      {"h4": "Primeiros passos"},
+      {"p": "Baixe, descompacte o emulador, abra-o e clique em OK na janela que irá aparecer."},
+      {"p": "<img src='/assets/images/kega_tutorial.png' alt='Kega Fusion - Tela inicial' />"},
+      {"p": "<br/>"},
+      {"h4": "Conhecendo os menus"},
+      {"p": "Menu File: nele há as seguintes opções: Load 'Console' e Boot 'Console' (carrega um jogo), Power ON, Power OFF e Soft Reset (liga TV, desliga TV e reseta), Game Genie (adiciona códigos), Netplay (joga online por IP), Save State As e Load State As (salva e carrega um arquivo sav), Save Screenshot (tira foto), Load RAM Cart e Creat a RAM Cart (carrega ou cria um RAM Cart que é igual a um memory card)."},
+      {"p": "Menu Country: selecione o país do console. OBS.: caso for jogar online os dois joga-dores devem selecionar o mesmo país."},
+      {"p": "Menu Video: merecem destaque: Windows Size e Full Screen Size (altera a resolução), VSync (regular a taxa de quadros por segundo, evitando atropelamentos na movimentação de tela), Scanlines (linhas horizontais cortando a tela do jogo), Normal, TV Mode 1 e TV Mode 2 (modos de exibição dos games), Filtered, Brighten e Use NTSC Aspect (respectivamente: filtra a imagem, deixa a tela mais clara e expande a tela ao máximo) e Log Avi File (grava um vídeo)."},
+      {"p": "Menu Sound: destaquei as seguintes opções: Disable Sound (desabilita o som), Número Hz (frequência do som), Overdrive (deixa o som mais forte), Log Wav File (grava os sons)."},
+      {"p": "Menu CD-DRIVE: escolha qual a unidade de CD que você utilizará."},
+      {"p": "Menu Options: Set Config (muda diretórios e configuração dos controles), Show FPS e Show Sega CD Legs (mostra o FPS e mostra o Sega CD Legs), Sleep While Waiting (pausa o emulador quando a janela estiver inativa), High Priority (foca os recursos do processador no emulador) e Fast forward (deixa a velocidade do jogo muito rápida)."},
+      {"p": "<br/>"},
+      {"h4": "Configurando os controles"},
+      {"p": "Vá ao menu Options, Set Config, clique em Controllers, defina se você quer um controle com 6 ou 3 botões e se usará teclado ou joystick. Logo após, clique em 'Define' em frente ao 'Port 1' para o controle 1 e em frente ao 'Port 2' para o controle 2. Conforme aparecerem as funções, como o UP (seta para cima) e Down (seta para baixo), aperte o botão desejado para cada uma. Por exemplo: desejo colocar o botão Home na função UP, para isso, teclo Home quando aparecer a função UP."},
+      {"p": "<img src='/assets/images/kega_tutorial_2.png' alt='Kega Fusion - Controles' />"},
+      {"p": "Caso for utilizar um joystick, conecte-o antes de abrir o emulador e onde está escrito keyboard na janela acima, troque pelo nome do joystick."},
+      {"p": "<br/>"}
+    ],
+    "tags": ["Mega Drive", "Master System", "Genesis"]
+  },
+  {  
+    "id": 145689,  
+    "title": "Tutorial NeoRAGEx",  
+    "description": "Aprenda a configurar o emulador NeoRAGEx",
+    "htmlContent": [
+      {"h4": "Primeiros passos"},
+      {"p": "Baixe, descompacte e abra o emulador clicando em: NeoRAGEx 5.2a.exe. A seguinte tela será apresentada:"},
+      {"p": "<img src='/assets/images/neoragex_tutorial.jpg' alt='NeoRAGEx - Tela inicial' />"},
+      {"p": "<br/>"},
+      {"h4": "Conhecendo os menus"},
+      {"p": "Controls: aqui você decidirá se os jogadores usarão joystick ou teclado e configurará os controles (clique na função desejada e pressione o botão que você quiser)."},
+      {"p": "Directories: defina onde as roms, as screenshots e os arquivos saves serão guardados."},
+      {"p": "Video Options: escolha a quantidade de bits usados para representar a cor (Color Depth), a quantidade de linhas horizontais na tela (Scanlines), a velocidade dos jogos (Frameskip) que eu recomendo deixar no 0 e adicionar filtros que melhoram a imagem."},
+      {"p": "Audio Options: defina o volume do jogo (Main Volume), a taxa de tranferência do som (Sample Size) que eu recomendo colocar 16 bits e a frequência do som (Sample Rate)."},
+      {"p": "Machine Settings: aqui você decidirá a linguagem do console (Lenguage) que deverá ser escolhido de acordo com o idioma da rom e se você quer jogar como se o emulador fosse um console ou um fliperama/arcade."},
+      {"p": "<br/>"},
+      {"h4": "Adicionando Jogos"},
+      {"p": "Após alterar as configurações, feche o emulador. Baixe uma rom e coloque dentro do diretório padrão 'pasta do emulador/Roms' ou no diretório que você definiu para as roms no menu Directories."},
+      {"p": "Em seguida, reabra o emulador e clique no botão Import. A rom será mostrada na lista do lado esquerdo ('Gamelist') com o nome do jogo na cor branca. Para iniciar o jogo, clique sobre o nome do jogo na lista e em Launch."},
+      {"p": "<br/>"}
+    ],
+    "tags": ["Neo Geo"]
+  },
+  {  
+    "id": 16894520,  
+    "title": "Tutorial Snes9x",  
+    "description": "Aprenda a configurar o emulador Snes9x",
+    "htmlContent": [
+      {"h4": "Primeiros passos"},
+      {"p": "Baixe, descompacte e execute o emulador. A tela seguinte será apresentada:"},
+      {"p": "<img src='/assets/images/snes9x_tutorial.png' alt='Snes9x - Tela inicial' />"},
+      {"p": "<br/>"},
+      {"h4": "Configurando os controles"},
+      {"p": "Vá ao menu 'Input - Input Configuration'. A janela com cada botão aparecerá. Você pode configurar até 5 controles, mas não é necessário configurar todos. Para configurar o controle 1, selecione em 'Controller' a opção 'Joypad #1' e certifique-se de que a caixa de seleção 'Enabled' está marcada para habilitar o controle. Faço o mesmo para os outros controles que deseja configurar."},
+      {"p": "<img src='/assets/images/snes9x_controles.png' alt='Snes9x - Configurando os controles' />"},
+      {"p": "Para configurar as teclas de cada controle, clique sobre o retângulo branco ao lado da função desejada e aperte o botão do teclado ou joystick desejado para aquela função. Atenção: caso deseje utilizar um joystick, conecte-o ao computador antes de iniciar o emulador."},
+      {"p": "Quando terminar de configurar todos os controles desejados, apenas clique no botão OK na parte inferior direita deste menu."},
+      {"p": "<br/>"},
+      {"h4": "Configurações de vídeo"},
+      {"p": "Vá ao menu 'Video - Display Configuration...'. A janela com as opções de vídeo aparecerá. Habilite ou desabilite o modo tela cheia marcando ou desmarcando a opção 'Fullscreen'. Mantenha a opção 'Stretch Image' para forçar a imagem do jogo a ficar do tamanho da tela."},
+      {"p": "<img src='/assets/images/snes9x_video.png' alt='Snes9x - Configurando as opções de vídeo' />"},
+      {"p": "Filtros na imagem do jogo (que alteram a imagem do jogo tentando melhorá-la) podem ser aplicados. Por padrão, o emulador já deixa a opção 'Bilinear Filtering' habilitada, você pode desabilitar se quiser a imagem do jogo como no console. Outros filtros podem ser encontrados no quadro 'Output Image Processing', você pode testá-los caso deseje."},
+      {"p": "Se você optar em jogar no modo tela cheia (fullscreen), você deve selecionar a resolução do seu monitor em 'Fullscreen Display Settings - Current:'."},
+      {"p": "Quando terminar de configurar, apenas clique no botão OK na parte inferior direita deste menu."},
+      {"p": "<br/>"},
+      {"h4": "Abrindo uma rom"},
+      {"p": "Vá ao menu 'File - Load Game...'. A janela com as pastas do seu computador aparecerá. Navegue até a pasta onde estão suas roms de snes descompactadas, selecione a que deseja jogar e clique em 'Abrir'."},
+      {"p": "<br/>"},
+      {"h4": "Salvando seu jogo"},
+      {"p": "O emulador trás a possibilidade de salvar seu progresso no jogo, mesmo que o próprio jogo não tenha esta opção, o que é muito útil em vários jogos de snes. Para isso, quando você desejar salvar seu progresso, vá ao menu 'File' (caso esteja jogando em modo tela cheia, será necessário apertar a tecla ESC para que os menus apareçam). Seu jogo será pausado como na imagem."},
+      {"p": "<img src='/assets/images/snes9x_salvar.png' alt='Snes9x - Salvando seu jogo' />"},
+      {"p": "Com o menu 'File' expandido, vá na opção 'Save Game Position' e clique em um dos slots para salvar seu jogo. Caso queira salvar mais posições de um mesmo jogo, repita o procedimento selecionando um slot diferente. Se você salvar o mesmo jogo selecionando o mesmo slot, perderá o que tinha salvado anteriormente, deixando apenas o estado atual que você está salvando. Porém, se estiver salvando um outro jogo, você pode tranquilamente selecionar o mesmo slot em que salvou um outro jogo. Assim que clicar em um slot, o jogo automaticamente será retomado. Em modo tela cheia aperte a tecla ESC para que os menus desapareçam novamente."},
+      {"p": "<br/>"},
+      {"h4": "Carregando seu jogo salvo"},
+      {"p": "Já para carregar seu jogo salvo, rode o jogo no emulador, vá na opção 'Load Game Position' e selecione o slot em que salvou o jogo."},
+      {"p": "<br/>"}
+    ],
+    "tags": ["Super Nintendo"]
+  },
+  {  
+    "id": 1024698710,  
+    "title": "Tutorial Stella",  
+    "description": "Aprenda a configurar o emulador Stella",
+    "htmlContent": [
+      {"h4": "Primeiros passos"},
+      {"p": "Baixe a versão mais recente do emulador, descompacte ou instale e abra o emulador. Logo de início aparecerá uma mensagem informando que é a primeira vez que o emulador é iniciado, dê OK. Depois, aparecerá uma nova janela, na qual você deverá escolher a pasta onde estarão as roms (jogos) baixadas, portanto, navegue até a pasta desejada e clique em 'Choose', como feito na tela abaixo:"},
+      {"p": "<img src='/assets/images/stella_tutorial.png' alt='Stella - Pasta das roms' />"},
+      {"p": "<br/>"},
+      {"h4": "Configurando os controles"},
+      {"p": "Caso queira configurar os controles de forma diferente do padrão, clique em Options, Input Settings, selecione o botão que quer mudar, clique em Map, aperte o novo botão e dê OK."},
+      {"p": "<img src='/assets/images/stella_tutorial_controles.png' alt='Stella - Configurando os controles' />"},
+      {"p": "<br/>"},
+      {"h4": "Opções de vídeo"},
+      {"p":"Caso queira jogar em tela cheia, clique em 'Options', 'Video Settings', selecione 'On' em 'Fullscreen' e em 'Fullscrn Res' selecione a resolução desejada."},
+      {"p": "Se o jogo estiver rodando muito rápido, limite a taxa de frames em 'Framerate', até encontrar uma taxa que normalize a velocidade do jogo."},
+      {"p": "<img src='/assets/images/stella_tutorial_video.png' alt='Stella - Opções de vídeo' />"},
+      {"p": "<br/>"}
+    ],
+    "tags": ["Atari 2600"]
+  },
+  {  
     "id": 1,  
-    "title": "Jack",  
-    "description": "jack@gmail.com",
-    "htmlContent":   
-    "tags": ["male"]
+    "title": "My First tutorial",  
+    "description": "my first tutorial about emulation",
+    "htmlContent": [
+      {"p": "Go to this <a href='https://google.com'>website </b>"}
+    ],
+    "tags": ["snes"]
   }
 ]  

@@ -1,1 +1,5 @@
-<p>tutoriais-item works!</p>
+<div *ngIf="tutorial" class="container col-7 mt-5 d-flex flex-column align-items-center">
+    <h1>{{ tutorial.title }}</h1>
+    <p class="lead">{{ tutorial.description}}</p>
+    <div id="content" class="mt-3 w-100 text-justify"></div>
+</div>

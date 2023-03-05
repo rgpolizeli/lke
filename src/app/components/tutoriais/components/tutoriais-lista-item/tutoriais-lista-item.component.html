@@ -1,10 +1,8 @@
-<a [href]="" style="text-decoration: none; color: #212529">
-    <div class="col-sm-3">
-        <div class="card me-2" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-    </div>
-</a>
+<div class="col-sm-3">
+    <div class="card me-2" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"><a [routerLink]="['/tutoriais', tutorial.id]">{{ tutorial.title }}</a></h5>
+          <p class="card-text">{{ tutorial.description }}</p>
+        </div>
+      </div>
+</div>

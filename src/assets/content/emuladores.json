@@ -1,23 +1,58 @@
 [  
   {  
-    "id": 1,  
-    "name": "PCSX2",  
-    "devices": ["Playstation 2","Play1"],  
-    "download": "www,downlaod.com",
+    "id": 16897452,  
+    "name": "ZSNES",  
+    "devices": ["Super Nintendo"],  
+    "download": "https://www.zsnes.com/",
     "tutorial": "www.tutorial.com"  
   },  
   {  
-    "id": 2,  
-    "name": "ZSNES",  
+    "id": 2698523,  
+    "name": "Snes9x",  
     "devices": ["Super Nintendo"],  
-    "download": "www,downlaod.com",
-    "tutorial": "www.tutorial.com"    
+    "download": "https://www.snes9x.com/downloads.php",
+    "tutorial": "./tutoriais/16894520"    
   },  
   {  
-    "id": 3,  
-    "name": "ePSX",
+    "id": 3023589,  
+    "name": "ePSXe",
     "devices": ["Playstation 1"],   
-    "download": "mary@gmail.com",  
+    "download": "https://www.epsxe.com/download.php",  
     "tutorial": "female"  
+  },
+  {  
+    "id": 463547,  
+    "name": "Kega Fusion",
+    "devices": ["Master System, Mega Drive"],   
+    "download": "https://www.carpeludum.com/kega-fusion/",  
+    "tutorial": "./tutoriais/265794"  
+  },
+  {  
+    "id": 5630214058,  
+    "name": "Project64",
+    "devices": ["Nintendo 64"],   
+    "download": "https://www.pj64-emu.com/public-releases",  
+    "tutorial": "female"  
+  },
+  {  
+    "id": 6014785,  
+    "name": "NeoRAGEx",
+    "devices": ["Neo Geo"],   
+    "download": "http://www.emu-france.com/?wpfb_dl=4085",  
+    "tutorial": "./tutoriais/145689"  
+  },
+  {  
+    "id": 6014785,  
+    "name": "Stella",
+    "devices": ["Atari 2600"],   
+    "download": "https://stella-emu.github.io/downloads.html",  
+    "tutorial": "./tutoriais/1024698710"  
+  },
+  {  
+    "id": 356802,  
+    "name": "DeSmuME",
+    "devices": ["Nintendo DS"],   
+    "download": "http://www.desmume.com/download.htm",  
+    "tutorial": "./tutoriais/1024698710"  
   }
 ]  

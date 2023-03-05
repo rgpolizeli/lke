@@ -1,0 +1,50 @@
+[  
+  {  
+    "id": 16897452,  
+    "siteName": "edge|emulation",  
+    "devices": ["Atari 2600", "Game Boy", "Mega Drive", "Nintendo 8 bits", "Super Nintendo", "Nintendo 64", "Nintendo GameCube", "Nintendo DS"],  
+    "link": "https://edgeemu.net/"  
+  },  
+  {  
+    "id": 2698523,  
+    "siteName": "GameTronik",  
+    "devices": ["Atari 2600", "Game Boy", "Mega Drive", "Master System", "Nintendo 8 bits", "Super Nintendo", "Nintendo 64"],  
+    "link": "http://www.gametronik.com/"  
+  },  
+  {  
+    "id": 3023589,  
+    "siteName": "ROMs Games",
+    "devices": ["Atari 2600", "Game Boy", "Mega Drive", "Master System", "Neo Geo", "Nintendo 8 bits", "Super Nintendo", "Nintendo 64", "Nintendo Wii", "Playstation 1", "Playstation 2", "PSP", "Xbox"],   
+    "link": "https://www.romsgames.net/"  
+  },
+  {  
+    "id": 463547,  
+    "siteName": "FreeROMS",
+    "devices": ["Atari 2600", "Game Boy", "Mega Drive", "Master System", "Neo Geo", "Nintendo 8 bits", "Super Nintendo", "Nintendo 64"],   
+    "link": "https://www.freeroms.com/" 
+  },
+  {  
+    "id": 4689589,  
+    "siteName": "Emu Games",
+    "devices": ["Atari 2600", "Game Boy", "Mega Drive", "Master System", "Neo Geo", "Nintendo 8 bits", "Super Nintendo", "Nintendo 64", "Nintendo Wii", "Playstation 1", "Playstation 2", "PSP", "Xbox"],   
+    "link": "https://www.emugames.net/"
+  },
+  {  
+    "id": 6014785,  
+    "siteName": "Rom Hustler",
+    "devices": ["Atari 2600", "Game Boy", "Mega Drive", "Master System", "Neo Geo", "Nintendo 8 bits", "Super Nintendo", "Nintendo 64", "Nintendo Wii", "Playstation 1", "Playstation 2", "PSP"],   
+    "link": "https://romhustler.org/" 
+  },
+  {  
+    "id": 6014785,  
+    "siteName": "CoolROM",
+    "devices": ["Atari 2600", "Mega Drive", "Master System", "Neo Geo", "Playstation 1", "Playstation 2", "PSP"],   
+    "link": "https://coolrom.com/" 
+  },
+  {  
+    "id": 6014785,  
+    "siteName": "ROMSPURE",
+    "devices": ["Atari 2600", "Game Boy", "Mega Drive", "Master System", "Neo Geo", "Nintendo 8 bits", "Super Nintendo", "Nintendo 64", "Nintendo Wii", "Playstation 1", "Playstation 2", "PSP", "Xbox"],   
+    "link": "https://romspure.cc/" 
+  }
+]  

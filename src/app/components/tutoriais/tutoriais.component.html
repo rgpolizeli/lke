@@ -5,7 +5,12 @@
         <div class="input-group-prepend">
           <span class="input-group-text"><i class="bi bi-funnel"></i></span>
         </div>
-        <input type="text" class="form-control" [(ngModel)]="tutorialFilter">
+        <select class="form-select w-25 ms-2" [(ngModel)]="tutorialFilter">
+          <option value="" [selected]="!tutorialFilter">Filtrar</option>
+          <ng-container *ngFor="let tag of tags">
+            <option value="{{ tag }}">{{ tag }}</option>
+          </ng-container>
+        </select>
       </div>
     </div>
   </div>
@@ -15,6 +20,7 @@
         <ng-container 
           *ngFor="let tutorial of tutoriais.slice((currentPage - 1)*pageSize, (currentPage - 1)*pageSize + pageSize - 1)">
           <lke-tutoriais-lista-item
+            *ngIf="showTutorial(tutorial)"
             [tutorial]="tutorial"
           ></lke-tutoriais-lista-item>
         </ng-container>

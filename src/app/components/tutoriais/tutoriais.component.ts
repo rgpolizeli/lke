@@ -12,6 +12,24 @@ import { TutorialItemService, TutorialItemService as TutorialService } from './s
 })
 
 export class TutoriaisComponent {
+  readonly tags = [
+    'Atari 2600',
+    'GameCube',
+    'Nintendo Wii',
+    'Nintendo DS',
+    'Game Boy',
+    'PSP',
+    'Playstation 1',
+    'Neo Geo',
+    'Master System',
+    'Mega Drive',
+    'Nintendo 8 bits', 
+    'Playstation 2', 
+    'Super Nintendo', 
+    'Nintendo 64',
+    'Xbox'
+  ];
+
   tutoriais$: Observable<Tutorial[]> = 
     this.tutorialService.getTutoriais()
     .pipe(
@@ -23,7 +41,8 @@ export class TutoriaisComponent {
 
   constructor(private tutorialService: TutorialService) {}
 
-  private showTutorial(tutorial: Tutorial): boolean {
+  showTutorial(tutorial: Tutorial): boolean {
+    debugger;
     return !this.tutorialFilter || tutorial.tags.includes(this.tutorialFilter);
   }
 }

@@ -16,7 +16,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'top', useHash: false})],
   exports: [RouterModule],
   providers: [TutorialItemResolver]
 })

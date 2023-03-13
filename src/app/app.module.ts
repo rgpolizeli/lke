@@ -12,6 +12,7 @@ import { TutoriaisListaItemComponent } from './components/tutoriais/components/t
 import { TutoriaisItemComponent } from './components/tutoriais/components/tutoriais-item/tutoriais-item.component';
 import { TutorialItemResolver } from './components/tutoriais/resolvers/tutorial-item.resolver';
 import { RomsComponent } from './components/roms/roms.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import { RomsComponent } from './components/roms/roms.component';
     NgbModule,
     FormsModule
   ],
-  providers: [TutorialItemResolver],
+  providers: [TutorialItemResolver, {provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -11,7 +11,7 @@ import { RomsSitesService } from './services/roms.service';
 export class RomsComponent {
   readonly devices = [
     'Atari 2600',
-    'Nintendo GameCube',
+    'GameCube',
     'Nintendo Wii',
     'Nintendo DS',
     'Game Boy',
@@ -36,7 +36,6 @@ export class RomsComponent {
   constructor(private romsSitesService: RomsSitesService) {}
 
   showRomSite(romSite: RomSite): boolean {
-    debugger;
     return !this.filterDevice || romSite.devices.includes(this.filterDevice);
   }
 }

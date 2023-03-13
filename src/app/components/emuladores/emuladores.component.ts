@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { filter } from 'rxjs';
 import emuladoresData from '../../../assets/content/emuladores.json';
 
 interface Emulador {
@@ -16,7 +15,23 @@ interface Emulador {
   styleUrls: ['./emuladores.component.less'],
 })
 export class EmuladoresComponent {
-  readonly devices = ['Playstation 2', 'Super Nintendo', 'Nintendo 64'];
+  readonly devices = [
+    'Atari 2600',
+    'GameCube',
+    'Nintendo Wii',
+    'Nintendo DS',
+    'Game Boy',
+    'PSP',
+    'Playstation 1',
+    'Neo Geo',
+    'Master System',
+    'Mega Drive',
+    'Nintendo 8 bits', 
+    'Playstation 2', 
+    'Super Nintendo', 
+    'Nintendo 64',
+    'Xbox'
+  ];
   emuladores: Emulador[] = emuladoresData;
   filterDevice: string = '';
 

@@ -105,12 +105,64 @@
     "tags": ["Atari 2600"]
   },
   {  
-    "id": 1,  
-    "title": "My First tutorial",  
-    "description": "my first tutorial about emulation",
+    "id": 26894301,  
+    "title": "Tutorial DeSmuME",  
+    "description": "Aprenda a configurar o emulador DeSmuME",
     "htmlContent": [
-      {"p": "Go to this <a href='https://google.com'>website </b>"}
+      {"h4": "Primeiros passos"},
+      {"p": "Baixe a versão mais recente do emulador, descompacte e abra o emulador. A seguinte tela aparecerá:"},
+      {"p": "<img src='./assets/images/desmume_tutorial.png' alt='DeSmuME - Tela Inicial' />"},
+      {"p": "<br/>"},
+      {"h4": "Alterando o layout do emulador"},
+      {"p": "O menu View define as configurações de como o emulador será mostrado na sua tela."},
+      {"p": "<img src='./assets/images/desmume_tutorial_menu_view.png' alt='DeSmuME - Configurando as opções de vídeo' />"},
+      {"p": "Em 'LCDs layout' você escolherá se as telas ficarão na vertical, na horizontal ou se só haverá uma tela (One LCD) e qual das telas ficará em cima e embaixo (Top, Bottom, Main Screen, Sub Screen first)."},
+      {"p": "Para definir o tamanho da janela do emulador, vá à opção 'Window Size'."},
+      {"p": "'Screen separation' mostra as opções da largura da barra que divide as telas (None, Narrow Border, DS e DS) e suas cores (White, Gray e Black)."},
+      {"p": "Em 'Magnification Filter' há os filtros que melhoram a imagem dos jogos, mas que podem ocasionar erros em alguns jogos."},
+      {"p": "<br/>"},
+      {"h4": "Alterando as configurações"},
+      {"p":"Todas as configurações podem ser alteradas no menu 'Config'."},
+      {"p": "<img src='./assets/images/desmume_tutorial_menu_config.png' alt='DeSmuME - Configurações' />"},
+      {"p": "'Control Config': configure o controle com o teclado ou com o joystick, apenas pressionando o botão desejado para cada função."},
+      {"p": "'Hotkey Config': coloque teclas de atalho para algumas funções, como abrir roms."},
+      {"p": "'Path Settings': muda diretórios, inclusive a pasta de roms."},
+      {"p": "'Frame Skip': opção delicada que mexe com a velocidade do jogo. Controla o pulo de quadros das animações e torna mais suave os movimentos e a animação dos jogos. Quanto maior o número escolhido, pior a imagem e mais rápido o jogo fica. Deixe a opção 'Limit framerate' habilitada para o jogo não ficar muito rápido."},
+      {"p": "<br/>"},
+      {"h4": "Abrindo um jogo, salvando e carregando"},
+      {"p": "Baixe um jogo e o coloque na pasta Roms (que está dentro da mesma pasta que o emulador). Em seguida, vá ao menu 'File' - 'Open ROM', selecione o jogo desejado e clique em abrir."},
+      {"p": "Já para salvar uma posição num jogo, você deverá ir ao menu 'File' e clicar em 'Save State As...' o que produzirá um arquivo save. Para carregar, é só clicar em 'File' - 'Load State From...' e abrir aquele arquivo save produzido."},
+      {"p": "<br/>"}
     ],
-    "tags": ["snes"]
+    "tags": ["Nintendo DS"]
+  },
+  {  
+    "id": 569325,  
+    "title": "Tutorial VisualBoy Advanced",  
+    "description": "Aprenda a configurar o emulador VisualBoy Advanced (VBA)",
+    "htmlContent": [
+      {"h4": "Primeiros passos"},
+      {"p": "Baixe a versão mais recente do emulador, descompacte e abra o emulador. A seguinte tela aparecerá:"},
+      {"p": "<img src='./assets/images/visualboyadvance_tutorial.png' alt='VisualBoy Advanced - Tela Inicial' />"},
+      {"p": "<br/>"},
+      {"h4": "Configurando os controles"},
+      {"p": "Vá a Option - Input - Configure, Player 1 para configurar o controle do primeiro player, Player 2 do segundo player e assim sucessivamente. Obviamente, não é necessário configurar os controles de todos os players."},
+      {"p": "<img src='./assets/images/visualboyadvance_tutorial_controles.png' alt='VisualBoy Advanced - Configurando os controles' />"},
+      {"p": "Para cada função do controle, aperte a tecla correspondente desejada do teclado ou joystick. Caso for utilizar um joystick, conecte-o antes de iniciar o emulador para ele poder detectá-lo."},
+      {"p": "<br/>"},
+      {"h4": "Abrir um jogo, salvar e carregar"},
+      {"p":"Clique em File - Open, selecione uma rom e dê OK para carregar um jogo."},
+      {"p": "Para salvar um jogo, entre no menu 'File' - 'Save state' e escolha um dos slots de 1 a 10 para salvar. Já para carregar seu jogo, clique 'File' - 'Load state' e escolha o mesmo slot que utilizou para salvar o jogo anteriormente."},
+      {"p": "<br/>"},
+      {"h4": "Evitando problemas com a velocidade dos jogos"},
+      {"p": "Caso tenha problemas com jogos rodando muito rápido, tente definir manualmente o dispositivo que roda o jogo. Para isso, vá até 'Options' - 'GameBoy' - 'Configure...' e em 'Emulated System' selecione a opção 'Game Boy Advanced' ou o dispositivo que roda o jogo."},
+      {"p": "<img src='./assets/images/visualboyadvance_tutorial_velocidade_jogos.png' alt='VisualBoy Advanced - Controlando a velocidade dos jogos' />"},
+      {"p": "Caso o jogo ainda esteja muito rápido ou muito lento, você pode alterar a taxa de pulo de quadros em 'Options' - 'Video' - 'Configure...' - 'Speed'. Escolha um valor, lembrando que quanto mais baixo o número selecionado, mais devagar será a velocidade do jogo e quanto mais alto o número, mais rápido será a velocidade do jogo."},
+      {"p": "<img src='./assets/images/visualboyadvance_tutorial_velocidade_jogos2.png' alt='VisualBoy Advanced - Controlando a velocidade dos jogos' />"},
+      {"p": "Uma última opção para estabilizar a velocidade do jogo, é diminuir ou aumentar a potência do emulador em 'Options' - 'Speedup / Turbo' - 'Speedup Throttle'. Selecione uma porcentagem adequada, testando para cada porcentagem a velocidade do jogo, lembrando que quanto menor a porcentagem, mais lento ficará o jogo e quanto maior a porcentagem, mais rápido ficará o jogo."},
+      {"p": "<img src='./assets/images/visualboyadvance_tutorial_velocidade_jogos3.png' alt='VisualBoy Advanced - Controlando a velocidade dos jogos' />"},
+      {"p": "<br/>"}
+    ],
+    "tags": ["GameBoy"]
   }
 ]  

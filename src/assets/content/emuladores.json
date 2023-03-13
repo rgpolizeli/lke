@@ -4,55 +4,62 @@
     "name": "ZSNES",  
     "devices": ["Super Nintendo"],  
     "download": "https://www.zsnes.com/",
-    "tutorial": "www.tutorial.com"  
+    "tutorial": ""  
   },  
   {  
     "id": 2698523,  
     "name": "Snes9x",  
     "devices": ["Super Nintendo"],  
     "download": "https://www.snes9x.com/downloads.php",
-    "tutorial": "./tutoriais/16894520"    
+    "tutorial": "./#/tutoriais/16894520"    
   },  
   {  
     "id": 3023589,  
     "name": "ePSXe",
     "devices": ["Playstation 1"],   
     "download": "https://www.epsxe.com/download.php",  
-    "tutorial": "female"  
+    "tutorial": ""  
   },
   {  
     "id": 463547,  
     "name": "Kega Fusion",
     "devices": ["Master System, Mega Drive"],   
     "download": "https://www.carpeludum.com/kega-fusion/",  
-    "tutorial": "./tutoriais/265794"  
+    "tutorial": "./#/tutoriais/265794"  
   },
   {  
     "id": 5630214058,  
     "name": "Project64",
     "devices": ["Nintendo 64"],   
     "download": "https://www.pj64-emu.com/public-releases",  
-    "tutorial": "female"  
+    "tutorial": ""  
   },
   {  
     "id": 6014785,  
     "name": "NeoRAGEx",
     "devices": ["Neo Geo"],   
     "download": "http://www.emu-france.com/?wpfb_dl=4085",  
-    "tutorial": "./tutoriais/145689"  
+    "tutorial": "./#/tutoriais/145689"  
   },
   {  
     "id": 6014785,  
     "name": "Stella",
     "devices": ["Atari 2600"],   
     "download": "https://stella-emu.github.io/downloads.html",  
-    "tutorial": "./tutoriais/1024698710"  
+    "tutorial": "./#/tutoriais/1024698710"  
   },
   {  
     "id": 356802,  
     "name": "DeSmuME",
     "devices": ["Nintendo DS"],   
-    "download": "http://www.desmume.com/download.htm",  
-    "tutorial": "./tutoriais/1024698710"  
+    "download": "https://desmume.org/download/",  
+    "tutorial": "./#/tutoriais/26894301"  
+  },
+  {  
+    "id": 697320,  
+    "name": "VisualBoy Advanced (VBA)",
+    "devices": ["Game Boy"],   
+    "download": "https://visualboyadvance.org/download/vba-m/",  
+    "tutorial": "./#/tutoriais/569325"  
   }
 ]  
